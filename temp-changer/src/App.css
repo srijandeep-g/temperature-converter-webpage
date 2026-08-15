@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    box-sizing: border-box;
+}
+
+body {
+      background-color: #fdf0d5ff;
+}
+
+h1 {
+    background-color: #003049ff;
+    color: #fdf0d5ff;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;    
+  padding: 0 2rem;
+
+}
+
+form {
+  margin-top: 4rem;
+  margin-left: 11rem;
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #669bbcff;
+  padding: 3rem;
+  border-radius: 2rem;
+  box-shadow: 0 10px 25px #003049ff;
+}
+
+input {
+  background-color: #fdf0d5ff;
+  color: #003049ff;
+  border: 1px solid #003049ff;
+  border-radius: 1rem;
+  padding:1rem;
+  font-size: 1rem;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+
+button {
+  background-color: #003049ff;
+  color: #fdf0d5ff;
+  align-self: center;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 120px;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.temp-card {
+  width: 100%;
+  max-width: 420px;
+  margin-top: 4rem;
+  margin-left: 10rem;
+  background-color: #003049ff;
+  color: #fdf0d5;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 10px 25px #003049ff;
+  line-height: 2;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.temp-card p {
+    background: transparent;
+    font-size: 1.5rem;
+    margin: 1rem;
+    letter-spacing: 1px;
+}
+/* --molten-lava: #780000ff;
+--brick-red: #c1121fff;
+--papaya-whip: #fdf0d5ff;
+--deep-space-blue: #003049ff;
+--steel-blue: #669bbcff; */
